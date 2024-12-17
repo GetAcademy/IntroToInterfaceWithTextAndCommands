@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TextElements.SimpleElements
+﻿namespace TextElements.SimpleElements
 {
-    internal class IndentedParagraph
+    internal class IndentedParagraph : ITextElement
     {
         private string _text;
 

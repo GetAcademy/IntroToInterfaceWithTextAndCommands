@@ -1,6 +1,6 @@
 ﻿namespace TextElements.SimpleElements
 {
-    internal class BulletPoint
+    internal class BulletPoint : ITextElement
     {
         private string _text;
 

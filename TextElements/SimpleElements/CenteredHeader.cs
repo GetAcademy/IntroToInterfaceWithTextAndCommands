@@ -1,6 +1,6 @@
 ﻿namespace TextElements.SimpleElements
 {
-    internal class CenteredHeader
+    internal class CenteredHeader : ITextElement
     {
         private string _text;
         private char _paddingChar;
