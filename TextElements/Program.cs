@@ -13,7 +13,7 @@ var textElements = new ITextElement[]
     centeredHeader, bulletPointA, bulletPointB, bulletPointC, indentedParagraph, invertedText
 };
 
-foreach (ITextElement textElement in textElements)
+foreach (var textElement in textElements)
 {
     textElement.Show();
 }
